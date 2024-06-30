@@ -178,7 +178,7 @@ font-size: 16pt;
 }
 .primeiro{
     display: inline-flex;
-    margin-left: 20%;
+    margin-left: 300px;
     margin-top: 70px;
    
 }
@@ -204,7 +204,7 @@ button{
     margin-left: 80px;
     background-color: black;
     color: white;
-    
+    border: none;
     box-shadow: -1px -1px 40px -4px blueviolet;
 }
 button:hover{
