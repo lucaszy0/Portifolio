@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+   height: 2800px;
+    background: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    
+    
+    backdrop-filter:blur (80px);
+    height: 70px;
+    width: 100%;
+    
+    top: 0px;
+   
+
+}
+.bem-vindo{
+    width:840px;
+    margin-top: 290px;
+    font-size: 25pt;
+    margin-left: 70px;
+
+}
+.bem-vindo > span{
+    color:transparent;
+    background: none;
+    font-size: 25pt;
+    background-image: linear-gradient(to right , rgb(110, 0, 0) ,rgb(151, 42, 161), rgb(119, 0, 255));
+    background-clip: text;
+    
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.icone{
+    display: flex;
+    margin-top: 30px;
+}
+.icone > a{
+    
+    font-size: 60px;
+}
+.linguagens{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 60px;
+}
+.introducao{
+    display: inline-flex;
+    color: rgb(66, 66, 66);
+     font-weight: lighter;
+    font-size: 18pt;
+    width: 1080px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.desenvolvedor{
+    text-align: center;
+    margin-top: 150px;
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    font-size: 70pt;
+    background-image: linear-gradient(to right , rgb(110, 0, 0) ,rgb(151, 42, 161), rgb(119, 0, 255));
+    background-clip: text;
+    color: transparent;
+
+}
+.menu{
+    
+    margin-left: auto;
+    margin-right: 200px;
+   
+    
+}
+@keyframes animacao{
+    from{
+        
+          margin-top: 60px;
+    }
+    to{
+       
+        margin-top: 150px;
+    }
+}
+
+a{
+    margin-left: 90px;
+    float: right;
+    letter-spacing: 3px;
+    margin-top: 26px;
+    font-weight: bolder;
+    font-size: 15pt;
+    text-decoration: none;
+    
+
+}
+.menu > a:hover{
+    text-decoration: underline;
+}
+.lado{
+    display: inline-flex;
+}
+.sobre {
+    
+    margin-top: 400px;
+    
+   
+    border-radius: 20px;
+    
+    margin-left: 90px;
+    
+    
+}
+.eu{
+    
+     margin-left: 20px;   
+     font-weight: bolder;
+     font-size: 30pt;
+     
+}
+.quadrado{
+    float:right;
+    margin-left: 20px;
+    margin-top: 24px;
+    width: 600px;
+    height: 5px;
+    background-image: linear-gradient(to right , rgb(110, 0, 0) ,rgb(151, 42, 161), rgb(119, 0, 255));
+}
+
+p{
+    
+    display: flexbox;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    width:280px;
+   font-size: 15pt;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+p >span{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    padding: 6px;
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+.projetos{
+display: inline-flex;
+margin-left: 90px;
+margin-top: 260px;
+font-size: 16pt;
+    
+}
+.caixa1 ,.caixa2{
+    
+    width: 500px;
+    height: 600px;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+   
+}
+.primeiro{
+    display: inline-flex;
+    margin-left: 20%;
+    margin-top: 70px;
+   
+}
+.caixa2{
+    float: right;
+    margin-left: 20px;
+   
+}
+.imagem {
+    height: 200px; /* Altura desejada */
+    width: auto; /* Largura ajustada automaticamente para manter a proporção */
+    margin-left: 40px;
+   margin-top: 15px;
+    border-radius: 10px;
+}
+button{
+   font-size: 15pt;
+   font-weight: 700;
+    border-radius: 10px;
+    width: 150px ;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 80px;
+    background-color: black;
+    color: white;
+    
+    box-shadow: -1px -1px 40px -4px blueviolet;
+}
+button:hover{
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(150deg, rgb(89, 0, 255),rgb(132, 0, 255),rgb(189, 43, 226));
+ }
+ h2{
+    font-size: 18pt;
+    font-weight: lighter;
+ }
+ /*resposividade para celular
+
+ */
+ @media (max-width: 550px) {
+    .container{
+        width: 1000px;
+    }
+    .menu{
+        display: inline-flex;
+        margin-left: 250px;
+        width: 10px;
+    }
+    .desenvolvedor{
+        width: 1200px;
+    }
+    .eu{
+        width: 220px;
+    }
+    .linguagens{
+        display: inline-flex;
+       
+        
+    }
+    i{
+        margin-left: 30px;
+    }
+    .primeiro{
+        margin-left: 10px;
+    }
+  }
+  /*resposividade para tablet
+
+ */
+ @media (max-width: 770px) {
+    .container{
+        width: 1000px;
+    }
+    .menu{
+        display: inline-flex;
+        width: 50px;
+    }
+    .desenvolvedor{
+        margin-left: 300px;
+        width: 700px;
+    }
+    .eu{
+        width: 220px;
+    }
+    .linguagens{
+        display: inline-flex;
+    }
+    i{
+        margin-left: 30px;
+    }
+    .primeiro{
+        margin-left: 50px;
+    }
+ }
+  /*resposividade para leptop
+
+ */
+ @media (max-width: 1024px) {
+    .container{
+        width: 1000px;
+    }
+    .menu{
+        display: inline-flex;
+        width: 50px;
+    }
+    .desenvolvedor{
+        margin-left: 300px;
+        width: 700px;
+    }
+    .eu{
+        width: 220px;
+    }
+    .linguagens{
+        display: inline-flex;
+    }
+    i{
+        margin-left: 30px;
+    }
+    .primeiro{
+        margin-left: 50px;
+    }
+ }
