@@ -220,13 +220,14 @@ button:hover{
     .bem-vindo {
         width: 100%;
         margin-top: 150px;
-        font-size: 20pt;
+        font-size: 28pt;
         margin-left: 20px;
     }
 
     .introducao {
         width: 100%;
         margin-left: 10px;
+        font-size: 18pt;
     }
 
     .desenvolvedor {
@@ -260,7 +261,9 @@ button:hover{
         margin-left: 20px;
         width: 100%;
     }
-
+    .primeiro{
+        display: inline-flex;
+    }
     button {
         width: 100%;
         margin-left: 0;
