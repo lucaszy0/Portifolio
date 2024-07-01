@@ -372,30 +372,124 @@ height: 40px;
 
  */
  @media (max-width: 1024px) {
-    .container{
-        width: 1000px;
+    /* Media query para telas menores que 500px */
+   body{
+    max-width: 1024px;
+   }
+    body {
+        font-size: 14px;
     }
-    .menu{
-        display: inline-flex;
-        width: 50px;
+
+    /* Garantir que os elementos não ultrapassem a largura da viewport */
+    img, video, .container {
+        width: 100%;
+        max-width: 100%;
     }
-    .desenvolvedor{
-        margin-left: 300px;
-        width: 700px;
-    }
-    .eu{
-        width: 220px;
-    }
-    .linguagens{
-        display: inline-flex;
-    }
-    i{
-        margin-left: 30px;
-    }
-    .primeiro{
-        margin-left: 50px;
-    }
- }
+
+
+/* Prevenir overflow horizontal */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+display: inline;
+width: 40px;
+}
+.container>p{
+margin-left: 50px;
+}
+.menu{
+margin-top: 10px;
+margin-left: 46px;
+}
+.menu>a{
+
+margin-left: 15px;
+}
+.desenvolvedor{
+font-size: 32pt;
+margin-left: 10px;
+}
+
+.bem-vindo{
+margin-left: 10px;
+margin-top: 200px;
+    font-size: 14pt;
+    width: 300px;
+}
+h1 >.sobre-mim{
+font-size: 14pt;
+}
+.sobre{
+margin-left: 1px;
+width: 100px;
+}
+.eu{
+margin-left: 2px;
+font-size: 18pt;
+width: 600px;
+}
+.quadrado{
+margin-left: 6px;
+margin-right: 120px;
+margin-top: 14px ;
+}
+.introducao{
+font-size: 14pt;
+width: 300px;
+margin-top: 20px;
+margin-left: 15px;
+
+}
+i{
+margin-left: 15px;
+font-size: 20pt;
+
+}
+a{
+margin-top: 2px;
+margin-left: 1px;
+}
+.projetos{
+margin-left: 10px;
+}
+h1{
+font-size: 18pt;
+margin-left: 1px;
+}
+.primeiro{
+    margin-left: 43px;
+    display: inline-block;
+}
+.caixa1,.caixa2{
+    width: 250px;
+    height: 500px;
+    margin-top: 20px;
+}
+.caixa2{
+    margin-left: 1px;
+}
+
+ p{
+    margin-left: 1px;
+    font-size: 13pt;
+}
+h2{
+    font-size: 15pt;
+}
+.imagem{
+    margin-left: 10px;
+    width: cover;
+    height: 100px;
+}
+button{
+    
+    margin-left: 1px;
+    width: 120px;
+    height: 40px;
+}}
   /*resposividade para celular
 
  */
