@@ -216,6 +216,56 @@ button:hover{
     font-size: 18pt;
     font-weight: lighter;
  }
+ @media (max-width: 747px) {
+    .bem-vindo {
+        width: 100%;
+        margin-top: 150px;
+        font-size: 20pt;
+        margin-left: 20px;
+    }
+
+    .introducao {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .desenvolvedor {
+        font-size: 50pt;
+        margin-top: 100px;
+    }
+
+    .menu {
+        margin-right: 50px;
+    }
+
+    .sobre {
+        margin-left: 20px;
+    }
+
+    .quadrado {
+        width: 100%;
+    }
+
+    .projetos {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .primeiro {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .imagem {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
  /*resposividade para celular
 
  */
@@ -493,27 +543,7 @@ button{
   /*resposividade para celular
 
  */
- @media (max-width: 747px){
-    *{
-        
-        max-width: 747px
-    }
-    body {
-       
-        max-width: 747px;
-        font-size: 16px;
-    }
-  .desenvolvedor{
-      font-size: 120px;
-  }
-  .container{
-    display: inline-flex;
 
-  }
-  .container>p{
-    font-size: 28pt;
-  }
- }
  @media (max-width: 390px) ,(max-width: 850px) {
     *{
         max-width: 390px;
