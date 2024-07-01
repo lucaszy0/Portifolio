@@ -256,7 +256,7 @@ button:hover{
     }
 
     .primeiro {
-        display: block;
+        display: inline-flex;
         margin-left: 20px;
     }
 
