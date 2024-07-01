@@ -551,11 +551,7 @@ button{
  */
 
  @media (max-width: 390px) ,(max-width: 850px) {
-    *{
-        max-width: 390px;
-        max-width: 850px;
-        max-width: 747px
-    }
+    
     body {
         max-width: 390px;
         max-width: 850px;
@@ -570,7 +566,7 @@ button{
         }
 
         /* Garantir que os elementos não ultrapassem a largura da viewport */
-        img, video, .container {
+        img, video {
             width: 100%;
             max-width: 100%;
         }
@@ -585,6 +581,7 @@ button{
    .container{
     display: inline;
     width: 40px;
+    margin-left: 10px;
    }
    .container>p{
     margin-left: 50px;
@@ -598,7 +595,8 @@ button{
     margin-left: 15px;
    }
    .desenvolvedor{
-    font-size: 32pt;
+  display: inline-flex;
+    font-size: 22pt;
     margin-left: 10px;
    }
    
