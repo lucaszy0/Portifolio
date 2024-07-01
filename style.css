@@ -227,7 +227,7 @@ button:hover{
     .introducao {
         width: 100%;
         margin-left: 10px;
-        font-size: 18pt;
+        font-size: 28pt;
     }
 
     .desenvolvedor {
@@ -248,7 +248,7 @@ button:hover{
     }
 
     .projetos {
-        display: block;
+        display: inline-flex;
         margin-left: 20px;
     }
 
