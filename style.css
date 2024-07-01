@@ -219,7 +219,7 @@ button:hover{
  /*resposividade para celular
 
  */
- @media (max-width: 550px) {
+ @media (max-width: 550px)  {
     .container{
         width: 1000px;
     }
@@ -386,7 +386,7 @@ height: 40px;
         max-width: 100%;
     }
 
-
+ 
 /* Prevenir overflow horizontal */
 body {
     margin: 0;
@@ -493,11 +493,37 @@ button{
   /*resposividade para celular
 
  */
- @media (max-width: 390px) {
+ @media (max-width: 747px){
     *{
-        max-width: 390px;
+        
+        max-width: 747px
     }
     body {
+       
+        max-width: 747px;
+        font-size: 16px;
+    }
+  .desenvolvedor{
+      font-size: 120px;
+  }
+  .container{
+    display: inline-flex;
+
+  }
+  .container>p{
+    font-size: 28pt;
+  }
+ }
+ @media (max-width: 390px) ,(max-width: 850px) {
+    *{
+        max-width: 390px;
+        max-width: 850px;
+        max-width: 747px
+    }
+    body {
+        max-width: 390px;
+        max-width: 850px;
+        max-width: 747px;
         font-size: 16px;
     }
 
