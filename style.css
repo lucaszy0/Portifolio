@@ -217,6 +217,9 @@ button:hover{
     font-weight: lighter;
  }
  @media (max-width: 747px) {
+    body{
+        max-width: 747px;
+    }
     .bem-vindo {
         width: 100%;
         margin-top: 150px;
